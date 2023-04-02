@@ -1,0 +1,20 @@
+{
+  "name": "@sureshraj/test-semantic-release",
+  "version": "0.0.1",
+  "description": "just for testing",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint '**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "jest": "^29.5.0"
+  }
+}
