@@ -1,6 +1,6 @@
 {
   "name": "@sureshraj/test-semantic-release",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "just for testing",
   "engines": {
     "node": ">=18"
@@ -8,13 +8,23 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint '**/*.js'",
+    "semantic-release": "semantic-release --no-ci"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
     "eslint": "^8.37.0",
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "semantic-release": "^21.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-sureshraj/test-semantic-release.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
