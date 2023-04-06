@@ -1,6 +1,9 @@
 const sum = require('./index');
 
-test('adds two numbers', () => {
+test('adds 10 + 20', () => {
     expect(sum(10, 20)).toBe(30);
-    expect(sum(1,3)).toBe(4);
 });
+
+test('adds 1 + 3', () => {
+    expect(sum(1,3)).toBe(4);
+})
