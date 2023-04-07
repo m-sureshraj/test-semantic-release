@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint '**/*.js'",
-    "semantic-release": "semantic-release --no-ci"
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "",
