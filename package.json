@@ -1,6 +1,6 @@
 {
   "name": "@sureshraj/test-semantic-release",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "just for testing",
   "engines": {
     "node": ">=18"
